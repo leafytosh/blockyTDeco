@@ -1,0 +1,15 @@
+CHAT ACCESS RULE
+
+Only active game users (players currently in a blockyTD session) can access the chat system.
+
+Non‑players:
+- Cannot type messages
+- Cannot trigger emote commands
+- Cannot activate shrine rituals
+- See a locked chat UI with a friendly ASCII face
+
+Players:
+- Full chat access
+- Can use /emote commands
+- Can influence shrine behavior
+- Can trigger tower mood shifts

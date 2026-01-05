@@ -1,0 +1,21 @@
+MAPS IN blockyTD
+
+1. Blocky Fields
+- Layout: Simple S-shaped path
+- Props: Trees, crates, retro CRT
+- Shrine location: Center
+- Difficulty: Beginner
+
+2. Cozy Chaos Courtyard (future)
+- Layout: Looping courtyard with shortcuts
+- Props: Lanterns, benches, vines
+- Shrine location: Elevated platform
+- Difficulty: Intermediate
+
+3. Tartar Terrace (my cat's personal favourite map) (future)
+- Layout: Multi-level terraces
+- Props: Cat statues, cushions, candles
+- Shrine location: Highest point
+- Difficulty: Advanced
+
+Maps emphasize readability, charm, and shrine placement strategy.

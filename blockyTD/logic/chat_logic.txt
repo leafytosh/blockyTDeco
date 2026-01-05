@@ -1,0 +1,76 @@
+CHAT LOGIC — blockyTD
+=====================
+
+Goal:
+Define how in-game chat works and how it interacts with systems.
+
+
+1. Who can chat
+---------------
+
+- Only active game users (players in the match) can send chat.
+- Spectators (if they exist) have no gameplay-impacting chat.
+- System messages are separate and cannot be faked by players.
+
+
+2. Types of messages
+--------------------
+
+- Regular text:
+  - Purely social, no gameplay effect.
+
+- Emote messages:
+  - ASCII faces like ^_^, >_<, ÷w<, etc.
+  - Can trigger reactions in towers, enemies, and shrine.
+
+- Commands:
+  - Start with / (slash).
+  - Example commands:
+    - /emote <face>
+    - /shrinemode
+    - /tartar
+
+
+3. Emote handling
+-----------------
+
+- When a player types an emote:
+  - It can appear visually above their avatar or towers (design choice).
+  - It may trigger a small gameplay effect if defined in emote_triggers.
+
+- Examples:
+  - >_< : enemies flinch slightly.
+  - ^_^ : towers get tiny morale boost.
+  - >:) : small increase in shrine charge.
+
+
+4. Commands and effects
+-----------------------
+
+- /emote <face>:
+  - Explicit emote display.
+  - Used to guarantee recognition by the system.
+
+- /shrinemode:
+  - Signals desire to awaken shrine.
+  - Could:
+    - Add a bit of shrine charge.
+    - Trigger Awakening when threshold is already close.
+
+- /tartar:
+  - Secret or special event trigger.
+  - Could:
+    - Spawn special visual.
+    - Cause unique emote chain.
+    - Influence lore elements.
+
+
+5. Limitations and fairness
+---------------------------
+
+- Chat effects should:
+  - Be small and fun, not mandatory or overpowered.
+  - Never replace core gameplay like good tower placement.
+
+- If multiple players spam emotes:
+  - Effects can be capped or rate-limited to avoid abuse.

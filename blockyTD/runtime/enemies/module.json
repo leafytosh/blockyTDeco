@@ -1,0 +1,17 @@
+{
+  "name": "enemies",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_enemies",
+    "shutdown_enemies",
+    "spawn_enemy",
+    "update_enemies",
+    "draw_enemies",
+    "damage_enemy"
+  ],
+  "dependencies": [
+    "graphics",
+    "ui"
+  ]
+}

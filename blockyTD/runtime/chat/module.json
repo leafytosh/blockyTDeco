@@ -1,0 +1,19 @@
+PK                  {
+  "name": "chat",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_chat",
+    "shutdown_chat",
+    "post_message",
+    "post_emote",
+    "update_chat",
+    "draw_chat"
+  ],
+  "dependencies": [
+    "graphics",
+    "ui",
+    "waves",
+    "shrine"
+  ]
+}

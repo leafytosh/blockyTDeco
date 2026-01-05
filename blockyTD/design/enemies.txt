@@ -1,0 +1,23 @@
+ENEMIES IN blockyTD
+
+1. Conehead
+- Behavior: Fast, low HP
+- Emotes: >_< (spawn), O_O (hit), T_T (low HP)
+- Role: Early pressure
+
+2. Blob
+- Behavior: Slow, tanky
+- Emotes: -- -- (spawn), >_< (hit), T_T (low HP)
+- Role: Mid-wave tank
+
+3. Shrine Breaker (future)
+- Behavior: Ignores towers, targets shrine
+- Emotes: ( ͡° ʖ̯ ͡° ) (spawn), >_< (hit), + :( (death)
+- Role: Shrine disruption
+
+Enemies express mood based on:
+- Spawn
+- Taking damage
+- Low health
+- Shrine activation
+- Death

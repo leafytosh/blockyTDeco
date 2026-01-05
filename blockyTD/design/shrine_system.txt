@@ -1,0 +1,29 @@
+SHRINE SYSTEM
+
+The shrine is a central mechanic in blockyTD.
+
+States:
+1. Dormant
+- No effects
+- Towers use normal emotes
+
+2. Awakening
+- Visual ripple
+- Towers shift to O_O
+- Enemies shift to >_<
+
+3. Active
+- Towers gain buffs
+- Emotes: ÷w<
+- Enemies become more aggressive
+- Emotes: ( ͡° ʖ̯ ͡° )
+
+4. Fading
+- Buffs weaken
+- Towers show T_T
+- Enemies show >w< (escape attempt)
+
+Shrine triggers:
+- Wave milestones
+- Player emotes in chat
+- Tartar lore events

@@ -1,0 +1,1 @@
+#include <windows.h> int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmd, int nShow) { MessageBoxA(NULL, "blockyTD.exe is running!", "blockyTD", MB_OK); return 0; }

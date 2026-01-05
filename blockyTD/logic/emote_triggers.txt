@@ -1,0 +1,119 @@
+EMOTE TRIGGERS — blockyTD
+=========================
+
+Goal:
+Define which emotes exist, what triggers them, and what they affect.
+
+
+1. Core tower emote triggers
+----------------------------
+
+- ^_^ :
+  - Trigger:
+    - When tower is placed.
+  - Effect:
+    - Indicates readiness.
+
+- >w< :
+  - Trigger:
+    - When tower scores its first kill.
+  - Effect:
+    - Visual excitement, optional small temporary fire-rate boost.
+
+- >:) :
+  - Trigger:
+    - When tower is upgraded.
+  - Effect:
+    - Visual confidence, tower feels stronger.
+
+- O_O :
+  - Trigger:
+    - When an enemy gets very close to the tower or shrine.
+  - Effect:
+    - Visual alert for player.
+
+- ÷w< :
+  - Trigger:
+    - While shrine is Active and affecting the tower.
+  - Effect:
+    - Shows tower is shrine-blessed.
+
+
+2. Core enemy emote triggers
+----------------------------
+
+- O_O :
+  - Trigger:
+    - On spawn.
+  - Effect:
+    - Visual indication enemy just entered map.
+
+- >_< :
+  - Trigger:
+    - When enemy takes damage.
+  - Effect:
+    - Brief hit reaction.
+
+- T_T :
+  - Trigger:
+    - Enemy HP below defined threshold.
+  - Effect:
+    - Shows weakened state.
+
+- + :( :
+  - Trigger:
+    - On enemy death.
+  - Effect:
+    - Visual end state.
+
+- ( ͡° ʖ̯ ͡° ) :
+  - Trigger:
+    - During shrine Active state for special enemies (e.g. shrine breaker).
+  - Effect:
+    - Indicates corrupted or shrine-hungry intent.
+
+
+3. Player chat emote triggers
+-----------------------------
+
+- >_< :
+  - Trigger:
+    - Typed by player in chat.
+  - Effect:
+    - Nearby enemies flinch temporarily (slight slow).
+
+- ^_^ :
+  - Trigger:
+    - Typed by player.
+  - Effect:
+    - Towers show ^_^ and may gain a tiny morale buff.
+
+- >:) :
+  - Trigger:
+    - Typed by player.
+  - Effect:
+    - Slight increase to shrine charge (if shrine system allows).
+
+- ÷w< :
+  - Trigger:
+    - Typed by player.
+  - Effect:
+    - Visual tie-in to shrine; may help toward Awakening.
+
+- /tartar (command, but emote-related event):
+  - Trigger:
+    - Player types /tartar.
+  - Effect:
+    - Secret or special sequence of emotes and/or visual events.
+
+
+4. UI and cosmetic emotes (optional)
+------------------------------------
+
+- UwU :
+  - Used in menus or cosmetic interactions only.
+
+- x_x :
+  - Used for stunned states or funny UI moments.
+
+These can be used later if you want more playful flavor without gameplay effects.

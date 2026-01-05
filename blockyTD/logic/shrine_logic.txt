@@ -1,0 +1,83 @@
+SHRINE LOGIC — blockyTD
+=======================
+
+Goal:
+Define how the shrine behaves, its states, and its influence.
+
+
+1. Shrine states
+----------------
+
+- Dormant:
+  - No active effects.
+  - Towers behave normally.
+  - Enemies behave normally.
+
+- Awakening:
+  - Visual/audio feedback (conceptual).
+  - Emotes: O_O for shrine-linked elements.
+  - Short delay before becoming Active.
+
+- Active:
+  - Towers receive buffs.
+  - Enemies may gain corruption or special traits.
+  - Strongest influence phase.
+
+- Fading:
+  - Buffs gradually weaken.
+  - Emotes: T_T on towers, or mixed states.
+  - Returns to Dormant at the end.
+
+
+2. Activation rules
+-------------------
+
+- Shrine can activate:
+  - Automatically at milestone waves.
+  - When shrine charge reaches a threshold.
+  - Via special player chat (e.g. /shrinemode) if allowed by design.
+
+- Shrine charge:
+  - Increases from:
+    - Killing enemies.
+    - Surviving waves.
+    - Possibly player chat/emotes (optional).
+
+
+3. Effects on towers
+--------------------
+
+- During Active state:
+  - Towers in shrine radius:
+    - Gain increased damage or fire rate.
+    - Might gain special visual indication (÷w< emote).
+
+- Shrine-linked towers:
+  - May unlock unique behaviors only when shrine is Active.
+
+
+4. Effects on enemies
+---------------------
+
+- During Active state:
+  - Some enemies may:
+    - Become weaker near shrine.
+    - Or become stronger if shrine is “corrupted” design-wise.
+
+- Shrine breaker enemies:
+  - Interact directly with shrine:
+    - Reduce charge.
+    - Shorten Active duration.
+    - Delay next activation.
+
+
+5. Interaction with chat
+------------------------
+
+- Chat commands:
+  - /shrinemode:
+    - May help push shrine toward Awakening.
+  - Specific emotes (e.g. ÷w<, >:) ) could:
+    - Slightly affect shrine charge or state.
+
+This keeps shrine feeling connected to both gameplay and player expression.

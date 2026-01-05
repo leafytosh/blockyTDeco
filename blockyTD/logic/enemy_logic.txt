@@ -1,0 +1,104 @@
+ENEMY LOGIC — blockyTD
+======================
+
+Goal:
+Define how enemies move, take damage, and interact with towers and shrine.
+
+
+1. Movement
+-----------
+
+- Enemies follow a fixed path defined by the current map.
+- Each enemy type has:
+  - Speed
+  - Health
+  - Size (optional visual concept)
+  - Special traits (if any)
+
+- Movement rules:
+  - Enemies always move forward along the path.
+  - Enemies cannot leave the path.
+  - If they reach the shrine/end point, they deal shrine/life damage.
+
+
+2. Health and damage
+--------------------
+
+- Each enemy has:
+  - Max HP
+  - Current HP
+
+- When hit by a projectile:
+  - Current HP is reduced by the projectile’s damage.
+  - If HP <= 0:
+    - Enemy dies.
+    - Triggers on-death effects (currency, emotes, etc.).
+
+
+3. Emote behavior
+-----------------
+
+- O_O on spawn:
+  - Enemy has just entered the map.
+
+- >_< when hit:
+  - Used briefly when taking damage.
+
+- T_T at low HP:
+  - Below a HP threshold (e.g. 20–30%), enemy looks weakened.
+
+- + :( on death:
+  - Used at the moment of defeat.
+
+- ( ͡° ʖ̯ ͡° ) during shrine activation:
+  - When shrine is active, some enemies show this corrupted/hungry look,
+    especially shrine-breakers or special units.
+
+
+4. Enemy types (examples)
+-------------------------
+
+- Conehead:
+  - Fast movement.
+  - Low-medium HP.
+  - Threat: reaches shrine quickly if ignored.
+
+- Blob:
+  - Slow movement (-- -- emote).
+  - High HP.
+  - Threat: tanks damage, protects other enemies behind.
+
+- Shrine Breaker:
+  - Ignores most tower aggro (conceptually).
+  - Targets shrine behavior:
+    - Could reduce shrine charge.
+    - Could interfere with shrine activation.
+  - Emotes:
+    - ( ͡° ʖ̯ ͡° ) when near shrine or during shrine events.
+
+
+5. Interactions with shrine
+---------------------------
+
+- When shrine activates:
+  - Some enemies get:
+    - Buffs (corruption).
+    - Visual change: ( ͡° ʖ̯ ͡° ) or other marks.
+  - Others may become weaker (if shrine is defensive).
+
+- When shrine fades:
+  - Buffs are removed.
+  - Enemies return to their base stats/emotes.
+
+
+6. Reactions to player chat
+---------------------------
+
+- If player types >_<:
+  - Nearby enemies may briefly flinch:
+    - Small slow effect for a moment.
+
+- If player types >o< (optional later):
+  - Enemies could scatter or slightly desync movement pattern.
+
+These effects are conceptual and can be tuned or removed later.

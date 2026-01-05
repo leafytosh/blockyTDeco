@@ -1,0 +1,15 @@
+{
+  "name": "waves",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_waves",
+    "shutdown_waves",
+    "update_waves",
+    "start_next_wave",
+    "get_current_wave"
+  ],
+  "dependencies": [
+    "enemies"
+  ]
+}

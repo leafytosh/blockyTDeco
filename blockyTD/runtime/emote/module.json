@@ -1,0 +1,17 @@
+{
+  "name": "emote",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_emote",
+    "shutdown_emote",
+    "get_emote",
+    "play_emote",
+    "register_emote"
+  ],
+  "dependencies": [
+    "graphics",
+    "ui",
+    "chat"
+  ]
+}

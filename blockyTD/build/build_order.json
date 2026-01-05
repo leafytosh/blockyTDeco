@@ -1,0 +1,14 @@
+{
+  "order": [
+    "graphics",
+    "audio",
+    "input",
+    "ui",
+    "towers",
+    "enemies",
+    "waves",
+    "shrine",
+    "chat",
+    "emote"
+  ]
+}

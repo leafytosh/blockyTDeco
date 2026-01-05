@@ -1,0 +1,26 @@
+TOWERS IN blockyTD
+
+1. Basic Tower
+- Role: Starter tower
+- Emotes: ^_^ (placed), >w< (first kill), O_O (overwhelmed)
+- Upgrades: Faster fire rate, small range boost
+- Shrine effect: ÷w< (blessed)
+
+2. Fork Tower
+- Role: Piercing damage
+- Emotes: >:) (default), >_< (miss), >w< (multi-hit)
+- Upgrades: Longer pierce, sparkle FX
+- Shrine effect: Golden fork shine
+
+3. Aura Tower (future)
+- Role: Buff nearby towers
+- Emotes: ^_^ (idle), >w< (buffing), T_T (shrine offline)
+- Upgrades: Larger aura radius
+- Shrine effect: Purrwave amplification
+
+Towers express mood based on:
+- Placement
+- Upgrades
+- Shrine activation
+- Kill streaks
+- Being surrounded

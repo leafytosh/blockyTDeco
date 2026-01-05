@@ -1,0 +1,13 @@
+The core loop of blockyTD:
+
+1. Player places towers on designated tiles.
+2. Waves of enemies spawn and follow a path.
+3. Towers attack enemies automatically.
+4. Enemies express ASCII emotions based on their state.
+5. Player earns currency from defeated enemies.
+6. Player upgrades towers to increase power and unlock new emotes.
+7. Shrine activates periodically, boosting towers and altering enemy behavior.
+8. Chat system allows ASCII emotes to influence gameplay.
+9. Survive all waves to win.
+
+The loop is designed to be readable, expressive, and emotionally reactive.

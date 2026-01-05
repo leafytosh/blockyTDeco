@@ -1,0 +1,145 @@
+ASCII EMOTES USED IN blockyTD
+=============================
+
+Emotes are the emotional language of blockyTD. 
+They appear on towers, enemies, UI elements, shrine events, and chat commands.
+Players can type emotes in chat to trigger reactions in the world.
+
+Each emote has:
+- a meaning
+- a trigger
+- a usage category (tower, enemy, shrine, chat, UI)
+- optional player‑chat effects
+
+------------------------------------------------------------
+CORE EMOTES
+------------------------------------------------------------
+
+>_< 
+Meaning: frustration, taking damage, pressure
+Used by: enemies when hit, towers when overwhelmed
+Player chat effect: nearby enemies briefly flinch
+
+O_O
+Meaning: surprise, alert, sudden awareness
+Used by: towers when enemies get close, enemies when spawning
+Player chat effect: towers enter alert mode
+
+T_T
+Meaning: sadness, low HP, weakening
+Used by: enemies at low health, towers when shrine fades
+Player chat effect: shrine pulse weakens enemies
+
+^_^
+Meaning: happy, calm, placed, friendly
+Used by: towers when placed, UI confirmations
+Player chat effect: towers gain tiny morale boost
+
+>:) 
+Meaning: confident, strong, upgraded
+Used by: Fork Tower, towers after upgrades
+Player chat effect: shrine charge increases slightly
+
+>w<
+Meaning: excited, energized, kill streak
+Used by: towers after multiple kills, enemies during shrine fade
+Player chat effect: towers fire slightly faster for a moment
+
+÷w<
+Meaning: shrine-blessed, empowered
+Used by: towers during shrine activation
+Player chat effect: triggers a small shrine spark
+
+-- --
+Meaning: neutral, idle, slow
+Used by: Blob enemy on spawn
+Player chat effect: no effect (neutral)
+
++ :(
+Meaning: defeated, collapse
+Used by: enemies on death
+Player chat effect: cosmetic only
+
+( ͡° ʖ̯ ͡° )
+Meaning: shrine hunger, corrupted intent
+Used by: Shrine Breaker, enemies during shrine activation
+Player chat effect: shrine enters “watching” state
+
+------------------------------------------------------------
+SPECIAL EMOTES (OPTIONAL / FUTURE)
+------------------------------------------------------------
+
+UwU
+Meaning: soft, friendly, cozy
+Used by: UI, cosmetic tower skins
+Player chat effect: cosmetic sparkle
+
+>o<
+Meaning: panic, sudden threat
+Used by: enemies when surrounded
+Player chat effect: enemies scatter slightly
+
+x_x
+Meaning: stunned, knocked out
+Used by: enemies hit by special effects
+Player chat effect: no gameplay effect
+
+------------------------------------------------------------
+PLAYER CHAT EMOTE SYSTEM
+------------------------------------------------------------
+
+Only active game users (players currently in a blockyTD session) can chat.
+
+Players can type:
+- /emote <face>
+- or simply type the ASCII face directly
+
+Chat emotes can:
+- trigger tower mood changes
+- cause enemies to react
+- influence shrine charge
+- create small visual FX
+- unlock hidden Tartar lore events
+
+Examples:
+- Typing >_< makes nearby enemies flinch
+- Typing ^_^ boosts tower morale
+- Typing >:) increases shrine charge
+- Typing ÷w< may awaken the shrine early
+
+------------------------------------------------------------
+EMOTE TRIGGERS
+------------------------------------------------------------
+
+Towers:
+- Placed: ^_^
+- First kill: >w<
+- Upgraded: >:)
+- Shrine active: ÷w<
+- Overwhelmed: O_O
+- Surrounded: >_<
+
+Enemies:
+- Spawn: O_O or -- --
+- Hit: >_<
+- Low HP: T_T
+- Shrine active: ( ͡° ʖ̯ ͡° )
+- Death: + :(
+
+Shrine:
+- Awakening: O_O
+- Active: ÷w<
+- Fading: T_T
+
+Chat:
+- /emote <face> displays the emote above the player’s towers
+- /shrinemode triggers shrine awakening sequence
+- /tartar triggers secret emote chain
+
+------------------------------------------------------------
+NOTES
+------------------------------------------------------------
+
+Emotes must remain readable at small sizes.
+Emotes should never overlap gameplay-critical UI.
+Emotes are part of blockyTD’s identity and should be used generously.

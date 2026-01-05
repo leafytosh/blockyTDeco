@@ -1,0 +1,57 @@
+CURRENCY LOGIC — blockyTD
+=========================
+
+Goal:
+Define how players earn and spend currency in blockyTD.
+
+
+1. Earning currency
+-------------------
+
+- Main source: killing enemies.
+  - Each enemy type rewards a certain amount.
+  - Stronger enemies give more.
+
+- Possible bonuses:
+  - Wave completion reward.
+  - Shrine events granting bonus currency.
+  - Streaks: multiple waves survived without shrine damage.
+
+
+2. Spending currency
+--------------------
+
+- Placing towers:
+  - Each tower type has a base cost.
+  - Cost may increase slightly as more of the same tower is built.
+
+- Upgrading towers:
+  - Upgrades cost more than placement.
+  - Higher upgrade levels cost increasingly more.
+
+- Shrine offerings (optional):
+  - Player can spend currency to:
+    - Recharge shrine.
+    - Extend shrine Active phase.
+    - Unlock shrine-linked tower effects.
+
+
+3. Scaling and balance
+----------------------
+
+- As waves progress:
+  - Enemy rewards increase to match difficulty.
+  - Tower and upgrade costs scale, but not to the point of feeling unfair.
+
+- The goal:
+  - Player should feel slightly pressured, but not starved.
+
+
+4. Chat and currency (optional hooks)
+-------------------------------------
+
+- Certain chat commands or emote patterns could:
+  - Trigger small currency bonuses (rare or cosmetic).
+  - Be used as rewards for secrets or Tartar events.
+
+These are optional and can be added later if they fit the vibe.

@@ -1,0 +1,58 @@
+{
+  "waves": [
+    {
+      "id": 1,
+      "difficulty": 1,
+      "spawn_delay": 1.2,
+      "enemies": [
+        { "type": "conehead", "count": 5 }
+      ],
+      "events": []
+    },
+    {
+      "id": 2,
+      "difficulty": 2,
+      "spawn_delay": 1.1,
+      "enemies": [
+        { "type": "conehead", "count": 8 },
+        { "type": "blob", "count": 2 }
+      ],
+      "events": []
+    },
+    {
+      "id": 3,
+      "difficulty": 3,
+      "spawn_delay": 1.0,
+      "enemies": [
+        { "type": "conehead", "count": 10 },
+        { "type": "blob", "count": 4 }
+      ],
+      "events": [
+        { "type": "hint", "message": "Enemies are getting tankier." }
+      ]
+    },
+    {
+      "id": 4,
+      "difficulty": 4,
+      "spawn_delay": 0.9,
+      "enemies": [
+        { "type": "conehead", "count": 12 },
+        { "type": "blob", "count": 6 }
+      ],
+      "events": []
+    },
+    {
+      "id": 5,
+      "difficulty": 5,
+      "spawn_delay": 0.9,
+      "enemies": [
+        { "type": "conehead", "count": 15 },
+        { "type": "blob", "count": 8 },
+        { "type": "shrine_breaker", "count": 1 }
+      ],
+      "events": [
+        { "type": "shrine_awaken" }
+      ]
+    }
+  ]
+}

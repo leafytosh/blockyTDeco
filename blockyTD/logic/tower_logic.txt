@@ -1,0 +1,122 @@
+TOWER LOGIC — blockyTD
+======================
+
+Goal:
+Define how towers behave, think, and react in blockyTD.
+
+
+1. Tower roles
+--------------
+
+- Basic tower:
+  - Single-target, mid range, stable DPS.
+- Fork Tower:
+  - Piercing shots in a straight line, strong with good positioning.
+- Support tower:
+  - Buffs nearby towers (range, fire rate, or damage).
+- Shrine-linked tower:
+  - Strongly affected by shrine states and chat/emotes.
+
+
+2. Targeting rules
+------------------
+
+- Towers scan for enemies inside their range.
+- Default targeting priority:
+  1) Enemy closest to shrine.
+  2) If tie: enemy with lowest HP.
+  3) If still tie: first seen.
+
+- Towers retarget when:
+  - Their current target dies.
+  - The target leaves range.
+  - A higher-priority target enters range (closer to shrine).
+
+
+3. Firing rules
+---------------
+
+- Each tower has:
+  - Range
+  - Damage
+  - Fire rate (shots per second)
+  - Projectile speed (if needed)
+
+- Firing steps:
+  1) Check if fire cooldown is ready.
+  2) If yes and a valid target exists:
+     - Fire a projectile.
+     - Reset cooldown.
+
+- Fork Tower special:
+  - Fires a straight-line projectile.
+  - Damages every enemy in its path.
+  - Works best when placed along long paths.
+
+
+4. Upgrades
+-----------
+
+- Towers can be upgraded during the wave or between waves.
+- Upgrades can modify:
+  - Damage
+  - Fire rate
+  - Range
+  - Special effects (pierce, slow, splash)
+
+- Upgrade effects on mood:
+  - On upgrade, tower emote changes to >:)
+  - Some towers unlock new emotes after certain upgrade levels.
+
+
+5. Emote behavior
+-----------------
+
+- ^_^ when placed:
+  - Tower is freshly placed and ready.
+
+- >w< on first kill:
+  - Tower becomes excited after getting its first enemy.
+
+- >:) when upgraded:
+  - Tower feels confident and powered up.
+
+- O_O when enemies are very close:
+  - Used as a visual warning.
+
+- ÷w< when shrine is active:
+  - Tower is empowered by shrine blessing.
+
+
+6. Reactions to shrine
+----------------------
+
+- When shrine enters Active state:
+  - Towers in shrine radius:
+    - Gain damage or fire rate bonus (design decision).
+    - Switch emote to ÷w<.
+  - Some shrine-linked towers gain extra effects:
+    - Extra projectiles
+    - Splash damage
+    - Chain hits
+
+- When shrine Fades:
+  - Buffs gradually disappear.
+  - Towers may show T_T briefly if desired.
+
+
+7. Reactions to player chat
+---------------------------
+
+- If player types >_< in chat:
+  - Towers may enter brief "alert mode":
+    - Faster targeting.
+    - Slight temporary fire rate boost.
+
+- If player types ^_^:
+  - Towers show ^_^ and may gain a small morale buff:
+    - Tiny bonus to damage or range for a short time.
+
+- If player types ÷w<:
+  - Towers visually react as if calling the shrine.
+  - Could slightly raise shrine charge (if implemented).

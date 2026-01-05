@@ -1,0 +1,16 @@
+{
+  "name": "ui",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_ui",
+    "shutdown_ui",
+    "draw_ui",
+    "update_ui",
+    "register_ui_element"
+  ],
+  "dependencies": [
+    "graphics",
+    "input"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "input",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_input",
+    "shutdown_input",
+    "poll_input",
+    "is_key_down",
+    "is_mouse_down",
+    "get_mouse_position"
+  ],
+  "dependencies": []
+}

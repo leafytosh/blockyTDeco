@@ -1,0 +1,73 @@
+WAVE LOGIC — blockyTD
+=====================
+
+Goal:
+Define how waves are structured, spawned, and scaled over time.
+
+
+1. Wave structure
+-----------------
+
+- Each wave:
+  - Has a wave number (1, 2, 3, ...).
+  - Contains a list of enemy types and counts.
+  - May have special rules (e.g. shrine event on wave 5).
+
+- Basic pattern:
+  - Early waves: few enemies, mostly simple types.
+  - Mid waves: mixed enemy types, faster pacing.
+  - Later waves: stronger enemies, shrine interactions, more pressure.
+
+
+2. Spawning behavior
+--------------------
+
+- Waves start after:
+  - A short countdown.
+  - Player input (e.g., "start wave" button) if desired.
+
+- Enemies spawn:
+  - From a fixed entry point.
+  - With a delay between spawns (spawn interval).
+  - Possibly in small groups.
+
+
+3. Difficulty scaling
+---------------------
+
+- As wave number increases:
+  - Enemy HP increases.
+  - Enemy speed may slightly increase.
+  - Enemy count per wave increases.
+  - Composition changes (more shrine breakers, more tanky units).
+
+- Currency rewards:
+  - Increase with wave number.
+  - Stay balanced with tower costs and upgrades.
+
+
+4. Shrine milestones
+--------------------
+
+- At specific waves (e.g., 5, 10, 15...):
+  - Shrine events occur:
+    - Awakening
+    - Active phase
+    - Fading
+
+- During shrine waves:
+  - Towers are buffed.
+  - Enemies may get altered behaviors.
+  - Player chat can have stronger effects.
+
+
+5. Between-wave logic
+---------------------
+
+- Between waves, player can:
+  - Place new towers.
+  - Upgrade existing towers.
+  - Plan for shrine events.
+  - Use chat in preparation (if design allows).
+
+This is the pacing layer that ties towers and enemies together.

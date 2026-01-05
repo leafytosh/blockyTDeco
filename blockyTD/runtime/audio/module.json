@@ -1,0 +1,13 @@
+{
+  "name": "audio",
+  "type": "runtime_module",
+  "version": "1.0",
+  "exports": [
+    "init_audio",
+    "shutdown_audio",
+    "play_sound",
+    "play_music",
+    "stop_music"
+  ],
+  "dependencies": []
+}
